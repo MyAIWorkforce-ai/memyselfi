@@ -30,7 +30,7 @@ export const PersonalUses = () => {
               <img
                 src="/Vault/Personal.svg"
                 alt="Right Inbox"
-                className="object-cover rounded-[15px] drop-shadow-[0_0_10px_rgba(255,239,67,0.8)]"
+                className="object-cover clear-both mix-blend-multiply rounded-[15px] drop-shadow-[0_0_10px_rgba(255,239,67,0.8)]"
               />
             </div>
           </Hovering> 

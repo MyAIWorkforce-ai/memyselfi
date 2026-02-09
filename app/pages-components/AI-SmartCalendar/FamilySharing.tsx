@@ -8,7 +8,7 @@ const FamilySharing: FC = () => {
 
   return (
    <SlideUp>  <section
-    className="relative w-full py-10 px-6 flex flex-col-reverse gap-4 md:flex-row items-center justify-between max-w-7xl mx-auto bg-(--dw-bg)">
+    className="relative w-full py-10 px-6 flex flex-col  gap-4 md:flex-row items-center justify-between max-w-7xl mx-auto bg-(--dw-bg)">
 <div
   className="absolute bottom-0 left-0 translate-x-0 w-[400px] h-[400px] rounded-full blur-[140px]"
   style={{

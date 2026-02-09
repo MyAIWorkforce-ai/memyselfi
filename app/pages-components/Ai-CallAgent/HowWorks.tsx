@@ -16,7 +16,7 @@ export const HowItWorks = () => {
             <div className="w-full flex mt-8 justify-center">
               <img
           
-                src="/Ai-CallAgent/how_work.png"
+                src="/Ai-CallAgent/how_work.svg"
                 alt="How it works Dashboard"
                 className="  rounded-xl"
               />

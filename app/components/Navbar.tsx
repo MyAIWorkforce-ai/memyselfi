@@ -1,10 +1,13 @@
 'use client';
 import { useState ,useRef } from 'react';
 import Link from 'next/link';
+import { motion } from 'framer-motion';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { ChevronDownIcon, Bars3Icon, XMarkIcon, SunIcon, MoonIcon} from '@heroicons/react/24/solid';
 import { useTheme } from './ThemeProvider';
+import { GiHidden } from 'react-icons/gi';
+import Toogle from './toogle_button'; 
 
 export default function Navbar() {
   const [isFeaturesOpen, setIsFeaturesOpen] = useState(false);
@@ -208,22 +211,40 @@ const isMobileActive = (path: string) => pathname === path;
       </div>
 {/* MOBILE MENU PANEL */}
 {mobileMenuOpen && (
-  <div className="fixed inset-0 bg-black bg-opacity-60 md:hidden z-50 "
+  <div className="fixed inset-0 bg-opacity-60 md:hidden z-40  "
     onClick={() => setMobileMenuOpen(false)}  >
-    <div
-      className="absolute right-0 top-0 h-full w-3/4 p-6 shadow-lg text-base"
+    <motion.div
+    initial={{ opacity: 1, x: -30 }}
+    whileInView={{ opacity: 1, x: 0 }}
+    viewport={{ once: false }}
+   transition={{ duration: 0.4,  }}
+
+    className="absolute left-0 top-0 h-screen w-3/4 p-6 shadow-lg text-base"
       style={{ backgroundColor: 'var(--bg-primary)', color: 'var(--text-primary)' }}
         onClick={(e) => e.stopPropagation()}   
   onTouchStart={(e) => e.stopPropagation()}
     >
-      <button className="mb-6" onClick={() => setMobileMenuOpen(false)}>
-        <XMarkIcon className="w-7 h-7" />
-      </button>
-
+      <div className='flex justify-between -ml-6  mb-4 items-center'>
+        <img
+         src={theme === 'light'
+              ? "/landingpage-images/light-theme-logo.png"
+              : "/landingpage-images/dark-theme-logo.png"
+            }
+            alt='logo'
+            className='w-56'
+            />
+     <span className=''>
+        <XMarkIcon className="w-7 h-7"onClick={() => setMobileMenuOpen(false)} />
+</span>
+      </div>
+      <div className='h-[1px] w-72 -ml-10 mb-2 bg-white '/>
+       <Toogle/>
      <div 
-          className="flex flex-col items-start gap-4 w-full"
+          className="flex flex-col items-start gap-4 mt-4 w-full"
           
         >
+      <Link href="/" onClick={() => setMobileMenuOpen(false)} className={`${pathname === "/" ? 'text-[#FFED29]' : hoverColor}`}>Home</Link>
+
              {/* FEATURES COLLAPSIBLE */}
         <div className="flex flex-col ">
           <button 
@@ -246,22 +267,16 @@ const isMobileActive = (path: string) => pathname === path;
   </div>
 )}
 </div>
-<Link href="/#pricing" onClick={() => setMobileMenuOpen(false)} className={`${pathname === "/#pricing" ? 'text-yellow-400' : hoverColor}`}>Pricing</Link>
-<Link href="/#testimonials" onClick={() => setMobileMenuOpen(false)} className={`${pathname === "/#testimonials" ? 'text-yellow-400' : hoverColor}`}>Testimonials</Link>
-<Link href="/#contact" onClick={() => setMobileMenuOpen(false)} className={`${pathname === "/#contact" ? 'text-yellow-400' : hoverColor}`}>Contact</Link>
-        {/* THEME TOGGLE */}
-        <button
-          onClick={toggleTheme}
-          className="mt-4 p-2 w-12 rounded-full flex items-center justify-center transition-colors duration-200"
-          style={{ backgroundColor: theme === 'dark' ? '#374151' : '#E5E7EB' }}
-        >
-          {theme === 'light' ? <MoonIcon className="w-5 h-5" /> : <SunIcon className="w-5 h-5" />}
-        </button>
+<Link href="/#pricing" onClick={() => setMobileMenuOpen(false)} className={`${pathname === "/#pricing" ? 'text-[#FFED29]' : hoverColor}`}>Pricing</Link>
+<Link href="/#testimonials" onClick={() => setMobileMenuOpen(false)} className={`${pathname === "/#testimonials" ? 'text-[#FFED29]' : hoverColor}`}>Testimonials</Link>
+<Link href="/#contact" onClick={() => setMobileMenuOpen(false)} className={`${pathname === "/#contact" ? 'text-[#FFED29]' : hoverColor}`}>Contact</Link>
+      
+       
         {/* LOGIN / SIGNUP */}
-        <Link href="https://app.memyselfi.ai/login" className="mt-6 px-4 py-2 rounded-lg text-center hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">Log In</Link>
-        <Link href="https://app.memyselfi.ai/signup" className="px-4 py-2 rounded-lg text-center hover:bg-yellow-500 transition-colors">Sign Up</Link>
+        <Link href="https://app.memyselfi.ai/login" className=" mt-8 rounded-full border-[#FFED29] py-2 border w-full  text-center">Log In</Link>
+        <Link href="https://app.memyselfi.ai/signup" className="border w-full border-[#FFED29] text-black bg-[#FFED29] text-center rounded-full  py-2 ">Sign Up</Link>
       </div>
-    </div>
+    </motion.div>
   </div>
 
   

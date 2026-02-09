@@ -23,11 +23,10 @@ export default function BoostEfficiency() {
           <div className="relative w-full md:w-1/2 flex justify-center md:justify-start items-end 
               pl-0 md:pl-16 pt-10 md:pt-0 z-20">
             <img
-              src="/Vault/vault_mobile.svg"
+              src="/Vault/vault_mobile.png"
               alt="Vault Mobile App"
               width={240}
-              height={480}
-              className="md:w-[280px] md:h-[560px] rounded-2xl -mt-6 md:-mt-8 drop-shadow-2xl" />
+              className="md:w-[280px] md:h-[500px] rounded-2xl -mt-6 md:-mt-8 drop-shadow-2xl" />
           </div>
           {/* RIGHT – CONTENT */}
           <div className="relative w-full md:w-1/2 max-w-full md:max-w-[480px] 

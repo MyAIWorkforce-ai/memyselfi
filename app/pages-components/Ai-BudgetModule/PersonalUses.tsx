@@ -22,7 +22,7 @@ export const PersonalUses = () => {
     <section className="relative w-full flex items-center justify-center bg-(--bg-bg) py-16 sm:py-20 md:py-25 px-4 sm:px-6 md:px-10 lg:px-20">
       <div className="relative z-10 max-w-6xl w-full flex flex-col items-center text-center">  
         <SlideUp>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-12 sm:mb-16 md:mb-20 text-(--text-primary) transition-colors duration-500">
+          <h2 className="text-2xl  md:text-5xl font-bold mb-12 sm:mb-16 md:mb-20 text-(--text-primary) transition-colors duration-500">
             From Personal Memories to<br /> Business Notes, for Every Moment
           </h2>
         </SlideUp>
