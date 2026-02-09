@@ -5,13 +5,13 @@ import { SlideUp, SlideLeft, SlideRight , Hovering} from "@/app/components/Anima
 export default function HeroSection() {
   return (
     <section
-      className="relative w-full min-h-[900px] mt-4 lg:mt-8  bg-contain bg-center lg:bg-bottom   bg-no-repeat px-4 sm:px-6 md:px-10 lg:px-20 flex items-center justify-center"
+      className="relative w-full min-h-[900px] mt-4 lg:mt-8  bg-cover md:bg-contain  bg-center lg:bg-bottom   bg-no-repeat px-4 sm:px-6 md:px-10 lg:px-20 flex items-center justify-center"
       style={{
         backgroundImage: "url('/Vault/hero-bg.png')",
       }}
     >
       <div className="flex flex-col items-center text-center space-y-2 sm:space-y-6 md:space-y-8 lg:space-y-5 max-w-full sm:max-w-xl md:max-w-3xl">
- <SlideLeft><h1 className="text-(--text-primary) text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight drop-shadow-lg">
+ <SlideLeft><h1 className="text-(--text-primary) text-5xl  md:text-5xl lg:text-6xl font-bold leading-tight drop-shadow-lg">
             Secure Your Documents <br />
             with <span className="text-[#FFED29]"> Vault</span>
           </h1></SlideLeft>         

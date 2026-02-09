@@ -4,7 +4,7 @@ import { SlideLeft, SlideRight, SlideUp, Hovering } from "@/app/components/Anima
 export default function EmailUsDirectly() {
     return (
         <section className="w-full py-20 bg-(--bg-bg)">
-      <div className="max-w-7xl mx-auto flex items-center gap-16 px-6 lg:px-20">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-16 px-6 lg:px-20">
          <div className="shrink-0">
 <SlideLeft> <Image
             src="/Support/email.png"

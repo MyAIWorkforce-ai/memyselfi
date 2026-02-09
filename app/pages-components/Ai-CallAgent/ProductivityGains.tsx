@@ -26,8 +26,8 @@ export const ProductivityImpact: FC = () => {
         </SlideLeft>
  {/* Right Side */}
         <SlideRight>
-          <div className="flex flex-col gap-4 sm:gap-6">
-            <div className="w-full sm:w-[300px] md:w-[365px] h-[100px] bg-[#FFED29] rounded-full flex flex-col justify-center items-center p-4">
+          <div className="flex flex-col -ml-4 gap-4 sm:gap-6">
+            <div className="w-[300px] md:w-[365px] h-[100px] bg-[#FFED29] rounded-full flex flex-col justify-center items-center p-4">
               <span className="text-black text-3xl sm:text-4xl text-bold">94%</span>
               <span className="text-black text-base sm:text-lg">Accuracy Rate</span>
             </div>

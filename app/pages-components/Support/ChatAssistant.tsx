@@ -4,7 +4,7 @@ import { SlideLeft, SlideRight, SlideUp, Hovering } from "@/app/components/Anima
 export default function LiveChatAssistant() {
     return (
         <section className="w-full py-20 bg-(--bg-bg)">
-      <div className="max-w-7xl mx-auto flex items-center gap-16 px-6 lg:px-20">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-16 px-6 lg:px-20">
    <div className="flex flex-col gap-6">
                     <SlideLeft><h2 className=" text-[47px] font-bold text-(--text-primary) leading-tight "
                         style={{ fontFamily: "Inter, sans-serif" }} >

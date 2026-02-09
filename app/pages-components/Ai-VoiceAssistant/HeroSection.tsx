@@ -5,18 +5,16 @@ import { useTheme } from "@/app/components/ThemeProvider";
 export default function HeroSection() {
   const { theme } = useTheme();
   return (
-    <section className="relative w-full h-screen sm:h-[90vh]  mt-10 flex items-center justify-center overflow-hidden">
+    <section className="relative w-full h-screen   mt-10 flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 -z-10">
-        <Image
+        <img
           src={
             theme === "light"
               ? "/Ai-VoiceAssistant/Hero-light.png"
               : "/Ai-VoiceAssistant/HeroSection.png"
           }
           alt="Hero Background"
-          fill
-          priority
-          className="object-cover object-center"
+          className="object-cover w-screen h-screen "
         />
       </div>
       <div className="text-center  max-w-full sm:max-w-xl md:max-w-3xl px-4 sm:px-6 -mt-40 sm:-mt-20">

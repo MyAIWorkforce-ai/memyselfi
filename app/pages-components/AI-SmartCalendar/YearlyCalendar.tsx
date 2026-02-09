@@ -7,7 +7,7 @@ export  const YearlyCalendar: FC = () => {
   const { theme } = useTheme();
   return (
 <SlideUp><section
-      className="relative w-full py-20 lg:px-20 sm:px-6 md:px-15 flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto bg-(--dw-bg)">
+      className="relative  w-full py-20 lg:px-20 sm:px-6 md:px-15 flex flex-col-reverse md:flex-row items-center justify-between max-w-7xl mx-auto bg-(--dw-bg)">
 {/* ==== MAIN SECTION GLOW (Left Bottom → Mid) ==== */}
 <div
   className="absolute bottom-0 right-10 sm:right-20 w-[250px] sm:w-[400px] md:w-[500px] h-[150px] sm:h-[250px] md:h-[300px] rounded-full blur-[60px] sm:blur-[120px] md:blur-[140px]"

@@ -2,7 +2,7 @@
 import { SlideLeft, SlideRight, SlideUp ,Hovering } from "@/app/components/Animations";
 export const BusinessUses = () => {
   return (
-    <section className="relative w-full flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12 bg-(--bg-bg) py-25 px-4 sm:px-15">
+    <section className="relative w-full flex flex-col-reverse md:flex-row items-center justify-center gap-8 md:gap-12 bg-(--bg-bg) py-25 px-4 sm:px-15">
       
       <SlideRight>
         <Hovering>
@@ -10,7 +10,7 @@ export const BusinessUses = () => {
             <img
               src="/Vault/Businessvault.svg"
               alt="Right Inbox"
-              className="object-cover rounded-[15px] drop-shadow-[0_0_10px_rgba(255,239,67,0.8)]"
+              className="object-cover rounded-[15px] clear-both  drop-shadow-[0_0_10px_rgba(255,239,67,0.8)]"
             />
           </div>
         </Hovering>

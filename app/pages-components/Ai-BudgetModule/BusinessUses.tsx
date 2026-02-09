@@ -17,9 +17,9 @@ const items = [
 ];
 export const BusinessUses = () => {
   return (
-    <section className="relative w-full flex items-center justify-center bg-(--bg-bg) py-16 sm:py-20 md:py-25 px-4 sm:px-6 md:px-10 lg:px-20">
-      <div className="relative z-10 max-w-6xl w-full flex flex-col items-center text-center">
-        <div className="flex flex-col lg:flex-row justify-center items-center gap-10 lg:gap-14 w-full">  
+    <section className="relative w-full flex   items-center justify-center bg-(--bg-bg) py-16 sm:py-20 md:py-25 px-4 sm:px-6 md:px-10 lg:px-20">
+      <div className="relative z-10 max-w-6xl w-full  items-center text-center">
+        <div className="flex flex-col-reverse lg:flex-row justify-center items-center gap-10 lg:gap-14 w-full">  
           <SlideRight>
             <Hovering>
               <div className="w-[280px] h-[300px] sm:w-[340px] sm:h-[360px] md:w-[400px] md:h-[420px] shrink-0">

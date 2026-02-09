@@ -42,15 +42,15 @@ export const KeyFeatures = () => {
         </SlideRight>
 
         <SlideUp>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 place-items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 place-items-center">
             {Cards.map((card) => (
               <Hovering key={card.id}>
                 <div
                   className="
                     bg-(--card-bg)
                     rounded-2xl
-                    p-6 w-full max-w-[400px] h-[380px]
-                    flex flex-col items-center  text-left ">
+                    p-6  w-screen md:max-w-[400px] h-[380px]
+                    flex flex-col gap-2 items-center  text-left ">
                   {/* Image */}
                   <Image
                     src={card.img}
@@ -60,11 +60,11 @@ export const KeyFeatures = () => {
                     className="object-contain mb-3"
                   />
                   {/* Title */}
-                  <h3 className="text-(--text-primary) font-bold  text-[18px] ">
+                  <h3 className="text-(--text-primary) font-bold text-2xl md:text-[18px] ">
                     {card.name}
                   </h3>
                   {/* Description */}
-                  <p className="text-(--text-secondary) text-[15px] leading-relaxed">
+                  <p className="text-(--text-secondary) text-lg md:text-[15px] leading-relaxed">
                     {card.description}
                   </p>
                 </div>

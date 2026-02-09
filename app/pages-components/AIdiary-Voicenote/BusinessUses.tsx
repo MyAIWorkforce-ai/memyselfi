@@ -2,7 +2,7 @@
 import { SlideLeft, SlideRight, SlideUp, Hovering } from "@/app/components/Animations";
 export const BusinessUses = () => {
   return (
-    <section className="relative w-full flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-12 bg-(--bg-bg) py-12 sm:py-16 md:py-25 px-4 sm:px-6 md:px-12 lg:px-20">
+    <section className="relative w-full flex flex-col-reverse lg:flex-row items-center justify-center gap-8 lg:gap-12 bg-(--bg-bg) py-12 sm:py-16 md:py-25 px-4 sm:px-6 md:px-12 lg:px-20">
       <SlideRight>
         <Hovering>
           <div className="w-full sm:w-[350px] md:w-[400px] h-[300px] sm:h-[380px] md:h-[420px] shrink-0 mb-8 lg:mb-0">
@@ -20,11 +20,11 @@ export const BusinessUses = () => {
             Business Uses
           </h2>
       <ul className="text-(--text-primary) text-sm sm:text-base md:text-lg px-4 sm:px-10 list-none space-y-2 lg:space-y-3">
-            <li>• Meeting Notes on the Go: Record client calls or brainstorming &nbsp;&nbsp;&nbsp;sessions and convert them into text instantly.</li>
-            <li>• Project Documentation: Maintain organized logs of tasks, &nbsp;&nbsp;&nbsp;deadlines, and key discussions.</li>
-            <li>• Team Collaboration: Share select voice notes or written updates &nbsp;&nbsp;&nbsp;with colleagues securely for faster communication.</li>
-            <li>• Log the work you did that day, where, times, hrs, who with, ect &nbsp;&nbsp;&nbsp;and options to share with your boss, so boss knows what &nbsp;&nbsp;&nbsp;employee did what each day , team sharing in business</li>
-            <li>• Record client calls, brainstorming sessions, or meetings, AI &nbsp;&nbsp;&nbsp;transcribes them instantly and provides key points with clear &nbsp;&nbsp;&nbsp;summaries.</li>
+            <li>• Meeting Notes on the Go: Record client calls or brainstorming sessions and convert them into text instantly.</li>
+            <li>• Project Documentation: Maintain organized logs of tasks,deadlines, and key discussions.</li>
+            <li>• Team Collaboration: Share select voice notes or written updates with colleagues securely for faster communication.</li>
+            <li>• Log the work you did that day, where, times, hrs, who with, ect and options to share with your boss, so boss knows what &nbsp;&nbsp;&nbsp;employee did what each day , team sharing in business</li>
+            <li>• Record client calls, brainstorming sessions, or meetings, AI transcribes them instantly and provides key points with clear &nbsp;&nbsp;&nbsp;summaries.</li>
           </ul>
         </SlideLeft>
       </div>
