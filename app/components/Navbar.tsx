@@ -85,7 +85,7 @@ const isMobileActive = (path: string) => pathname === path;
           />
         </Link>
         {/* DESKTOP MENU */}
-        <div className="hidden md:flex items-center gap-6">
+        <div className="hidden md:flex items-center gap-6" >
           {/* FEATURES DROPDOWN */}
           <div className="relative"
           onMouseLeave={handleMouseLeave}
@@ -201,26 +201,33 @@ const isMobileActive = (path: string) => pathname === path;
         </div>
 
         {/* MOBILE HAMBURGER */}
-        <button className="md:hidden" onClick={() => setMobileMenuOpen(true)}>
+        <button className="md:hidden" onClick={() => setMobileMenuOpen(true)}
+          >
           <Bars3Icon className="w-7 h-7" style={{ color: 'var(--text-primary)' }} />
         </button>
       </div>
 {/* MOBILE MENU PANEL */}
 {mobileMenuOpen && (
-  <div className="fixed inset-0 bg-black bg-opacity-60 md:hidden z-50">
+  <div className="fixed inset-0 bg-black bg-opacity-60 md:hidden z-50 "
+    onClick={() => setMobileMenuOpen(false)}  >
     <div
       className="absolute right-0 top-0 h-full w-3/4 p-6 shadow-lg text-base"
       style={{ backgroundColor: 'var(--bg-primary)', color: 'var(--text-primary)' }}
+        onClick={(e) => e.stopPropagation()}   
+  onTouchStart={(e) => e.stopPropagation()}
     >
       <button className="mb-6" onClick={() => setMobileMenuOpen(false)}>
         <XMarkIcon className="w-7 h-7" />
       </button>
 
-      <div className="flex flex-col gap-4">
-        {/* FEATURES COLLAPSIBLE */}
-        <div className="flex flex-col">
-          <button
-            className={`flex items-center justify-between px-2 py-1 text-left ${hoverColor}`}
+     <div 
+          className="flex flex-col items-start gap-4 w-full"
+          
+        >
+             {/* FEATURES COLLAPSIBLE */}
+        <div className="flex flex-col ">
+          <button 
+            className={`flex items-center justify-between  py-1 text-left ${hoverColor}`}
             onClick={() => setIsFeaturesOpen(!isFeaturesOpen)}
           >
             Features
@@ -256,8 +263,14 @@ const isMobileActive = (path: string) => pathname === path;
       </div>
     </div>
   </div>
-)}
 
+  
+)}
+    
+ 
     </nav>
+
+
+
   );
 }

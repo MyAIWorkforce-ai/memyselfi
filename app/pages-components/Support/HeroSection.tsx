@@ -19,7 +19,7 @@ export default function HeroSection() {
                     /></SlideRight>
                 </div>
                 <div className="flex flex-col gap-6">
-                    <SlideLeft><h1 className=" text-[47px] font-bold text-(--text-primary) leading-tight "
+                    <SlideLeft><h1 className=" text-2xl md:text-[47px] font-bold text-(--text-primary) leading-tight "
                         style={{ fontFamily: "Inter, sans-serif" }} >
                         AI Support that Works With You, Not Just For You
                     </h1></SlideLeft>
@@ -49,7 +49,7 @@ export default function HeroSection() {
       { icon: <FiMic size={22} />, text: "Voice-activated assistance" },
     ].map((item, i) => (
       <div key={i}
-        className="w-[258px] h-[95px] flex items-center gap-3 hover:-translate-y-4 duration-300 px-4 bg-[#1A1A1A] rounded-lg">
+        className=" w-full md:w-[258px] h-[95px] flex items-center gap-3 hover:-translate-y-4 duration-300 px-4 bg-[#1A1A1A] rounded-lg">
 <SlideLeft><span className="text-(--text-primary)">{item.icon}</span></SlideLeft>        
  <SlideRight> <p className="text-[14px] font-medium text-white leading-snug"
           style={{ fontFamily: "Inter, sans-serif" }} >

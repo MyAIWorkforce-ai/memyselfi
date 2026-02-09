@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function ContactUs() {
   return (
     <section className="w-full py-20 bg-(--bg-bg)">
-      <div className="max-w-7xl mx-auto flex items-center gap-3 px-6 lg:px-20">
+      <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center gap-3 px-6 lg:px-20">
  <Contact/>
         <div className="shrink-0">
           <Image

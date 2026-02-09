@@ -17,9 +17,9 @@ export const PersonalUses = () => {
               Personal Uses
             </h2>
             <ul className="text-(--text-primary) space-y-2 text-left">
-              <li>• Store passports, ID cards, and legal documents securely for quick  <br/> &nbsp;&nbsp;&nbsp;access when traveling or filling forms.</li>
-              <li>• Keep medical records, prescriptions, and health reports organized and &nbsp;&nbsp;&nbsp;shareable with doctors in seconds.</li>
-              <li>• Save family photos, videos, and precious memories in a protected &nbsp;&nbsp;&nbsp;environment with no risk of accidental deletion.</li>
+              <li>• Store passports, ID cards, and legal documents securely for quick access when traveling or filling forms.</li>
+              <li>• Keep medical records, prescriptions, and health reports organized and shareable with doctors in seconds.</li>
+              <li>• Save family photos, videos, and precious memories in a protected environment with no risk of accidental deletion.</li>
             </ul>
           </div>
         </SlideLeft> 
@@ -28,7 +28,7 @@ export const PersonalUses = () => {
           <Hovering>
             <div className="w-full sm:w-[370px] h-[300px] flex justify-center md:justify-start shrink-0 mt-6 md:mt-0">
               <img
-                src="/Vault/Personalvault.svg"
+                src="/Vault/Personal.svg"
                 alt="Right Inbox"
                 className="object-cover rounded-[15px] drop-shadow-[0_0_10px_rgba(255,239,67,0.8)]"
               />

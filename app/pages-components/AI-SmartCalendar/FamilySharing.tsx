@@ -8,8 +8,7 @@ const FamilySharing: FC = () => {
 
   return (
    <SlideUp>  <section
-    className="relative w-full py-10 px-6 flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto bg-(--dw-bg)">
-{/* ==== MAIN SECTION GLOW (Left Bottom → Mid) ==== */}
+    className="relative w-full py-10 px-6 flex flex-col-reverse gap-4 md:flex-row items-center justify-between max-w-7xl mx-auto bg-(--dw-bg)">
 <div
   className="absolute bottom-0 left-0 translate-x-0 w-[400px] h-[400px] rounded-full blur-[140px]"
   style={{
@@ -51,12 +50,12 @@ const FamilySharing: FC = () => {
       </div>
 
       {/* RIGHT IMAGE */}
- <Hovering>    <div className="md:mt-0">
-        <Image
-          src="/Smart-ai-calendar/family.png"
+ <Hovering>    <div className="md:mt-0 ">
+        <img
+          src="/Smart-ai-calendar/family_sharing.svg"
           alt="family sharing Calendar Preview"
-          width={380}
-          height={500}
+         
+          className="rounded-t-4xl h-96 md:mr-32 "
         />
       </div></Hovering> 
     </section> </SlideUp>

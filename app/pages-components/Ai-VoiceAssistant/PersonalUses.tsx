@@ -28,7 +28,7 @@ const items = [
 ];
 export const PersonalUses= () => {
   return (
-    <section className="w-full py-20 px-6 bg-(--bg-bg)">
+    <section className="w-full py-20 px-6 bg-(--bg-bg) ">
       <div className="max-w-7xl mx-auto flex flex-col items-center">
         <SlideUp>
           <h2 className="text-3xl sm:text-4xl font-bold text-(--text-primary) text-center">
@@ -67,7 +67,7 @@ export const PersonalUses= () => {
                 alt="Personal Dashboard"
                 width={450}
                 height={300}
-                className="rounded-4xl"
+                className="rounded-4xl -ml-12"
               />
             </div>
           </SlideLeft>
