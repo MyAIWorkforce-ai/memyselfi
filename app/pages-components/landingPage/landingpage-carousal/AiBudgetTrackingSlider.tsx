@@ -9,19 +9,18 @@ const cards = [
   {
     id: 1,
     icon: TiMessages,
-    title: 'All-in-One Dashboard',
-    desc: 'Files are neatlTrack income, expenses, and savings in a single, organized dashboard. From groceries to bills, all in one place.y organized into intuitive folders like IDs, Banking, Medical, Legal Personal Notes, and more. No digging, no clutter, just clarity.',
-  },
+    title: 'All in One Dashboard',
+desc:'Files are neatly organized. Track income, expenses, and savings in a single, intuitive dashboard. From groceries to bills, everything is in one place.'  },
   {
     id: 2,
     icon: MdOutlineUploadFile,
-    title: 'Real-Time Sync',
+    title: 'Real Time Sync',
     desc: 'Stay up to date with instant syncing across bank accounts, credit cards, and wallets. Your budget reflects changes the moment they happen.',
   },
   {
     id: 3,
     icon: GiElectric,
-    title: 'AI-Powered Insights',
+    title: 'AI Powered Insights',
     desc: 'Get smarter with your money. AI categorizes spending, highlights unusual expenses, and suggests adjustments to meet your savings goals.',
   },
   {
@@ -41,7 +40,7 @@ const AibBudgetTrackingSlider = () => {
 <SlideRight><p className="mt-2 font-[Inter] font-normal text-[18.6px] leading-7 text-(--text-primary)">
 Whether it’s income, expenses, or savings goals, MeMyselfI.ai keeps your finances<br/>
 organized, trackable, and always accessible. Record, analyze, or revisit your spending<br/>
-— all synced and intelligently managed in one smart dashboard.
+ all synced and intelligently managed in one smart dashboard.
         </p></SlideRight>        
       </div>
 <div className="mt-8 max-w-6xl w-full grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">

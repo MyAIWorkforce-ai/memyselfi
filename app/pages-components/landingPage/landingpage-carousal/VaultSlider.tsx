@@ -9,14 +9,14 @@ const cards = [
   {
     id: 1,
     icon: TiMessages,
-    title: 'Multi-Category Organization',
+    title: 'Multi Category Organization',
     desc: 'Files are neatly organized into intuitive folders like IDs, Banking, Medical, Legal Personal Notes, and more. No digging, no clutter, just clarity.',
   },
   {
     id: 2,
     icon: MdOutlineUploadFile,
     title: 'Instant Upload & Sync',
-    desc: 'Upload files directly from your device, or import from Google Drive, Dropbox, or iCloud. Vault auto-tags and sorts documents on arrival.',
+    desc: 'Upload files directly from your device, or import from Google Drive, Dropbox, or iCloud. Vault auto tags and sorts documents on arrival.',
   },
   {
     id: 3,

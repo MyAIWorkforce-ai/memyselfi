@@ -9,13 +9,13 @@ const leftCards = [
   {
     id: 1,
     icon: TiMessages,
-    title: 'AI-Generated Events',
+    title: 'AI Generated Events',
     desc: 'Let MeMyselfI.ai detect patterns in your emails, calls, and tasks, and automatically schedule relevant events. Confirm with one tap. Decline with confidence. ',
   },
   {
     id: 2,
     icon: MdOutlineUploadFile,
-    title: 'Voice-First Scheduling',
+    title: 'Voice First Scheduling',
     desc: 'Say it, schedule it. “Book dinner with Sam tomorrow at 7pm.” Your AI assistant handles the rest, with optional confirmations and smart reminders.',
   },
 ];
@@ -31,7 +31,7 @@ const rightCards = [
     id: 4,
     icon: TfiCommentsSmiley,
     title: 'Calendar That Thinks Ahead',
-    desc: 'Get proactive suggestions: “Traffic looks heavy. Want me to move your 4pm meeting to 4:30?” or “Friday is blocked. Reschedule your trainer?”',
+    desc: 'Get pro active suggestions: “Traffic looks heavy. Want me to move your 4pm meeting to 4:30?” or “Friday is blocked. Reschedule your trainer?”',
   },
 ];
 const AiSmartSlider = () => {
@@ -47,7 +47,7 @@ const AiSmartSlider = () => {
           <p className="mt-2 font-[Inter] font-normal text-[18.6px] leading-7 text-(--text-primary)">
            Say goodbye to missed meetings, double bookings, and scattered<br/>
 reminders. MeMyselfI.ai’s intelligent calendar merges your work and<br/>
-personal life into one fluid, adaptive timeline, curated by AI, confirmed by<br/>
+personal life into one fluid, adaptive timeline, created by AI, confirmed by<br/>
 you.
           </p>
         </SlideRight>
