@@ -9,26 +9,26 @@ const cards = [
   {
     id: 1,
     icon: TiMessages,
-    title: 'All-in-One Journal',
-    desc: 'Write entries, record voice notes, and attach moments — all in one seamless diary. No need for multiple apps to capture your thoughts.',
+    title: 'All in One Journal',
+    desc: 'Write entries, record voice notes, and attach moments all in one seamless diary. No need for multiple apps to capture your thoughts.',
   },
   {
     id: 2,
     icon: MdOutlineUploadFile,
-    title: 'Real-Time Sync',
+    title: 'Real Time Sync',
     desc: 'Every note and memory is instantly saved and synced across devices. Whether on your phone or laptop, your diary is always with you.',
   },
   {
     id: 3,
     icon: GiElectric,
-    title: 'AI-Powered Reflectionss',
+    title: 'AI Powered Reflectionss',
     desc: 'Get gentle insights from your entries. The AI can highlight moods, track recurring themes, and even suggest healthier habits over time.',
   },
   {
     id: 4,
     icon:TfiCommentsSmiley,
-    title: 'Voice-to-Text Ease',
-    desc: 'Too tired to write? Just speak. The AI turns your voice into clean, searchable text — so your late-night thoughts or quick reminders are never lost.',
+    title: 'Voice to Text Ease',
+    desc: 'Too tired to write? Just speak. The AI turns your voice into clean, searchable text  so your late night thoughts or quick reminders are never lost.',
   },
 ];
 
@@ -42,7 +42,7 @@ const AiDiaryNotesSlider = () => {
 <SlideRight><p className="mt-2 font-[Inter] font-normal text-[18.6px] leading-7 text-(--text-primary)">
 Whether it’s personal reflections, voice notes, or daily logs, MeMyselfI.ai<br/>
 keeps your Diary entries organized, searchable, and always accessible.<br/>
-Write, record, or revisit your moments — all synced and intelligently<br/>
+Write, record, or re visit your moments  all synced and intelligently<br/>
 managed in one calm space.
         </p></SlideRight>        
       </div>

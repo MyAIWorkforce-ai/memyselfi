@@ -9,7 +9,7 @@ const cards = [
   {
     id: 1,
     icon: TiMessages,
-    title: 'Voice–Controlled Planning',
+    title: 'Voice Controlled Planning',
     desc: '"Simply say, ‘What are my plans tomorrow?’ and your AI Assistant reads out your schedule, from morning workouts and project deadlines to grocery runs and family dinners, all perfectly organized in the right time slots ',
   },
   {
@@ -21,7 +21,7 @@ const cards = [
   {
     id: 3,
     icon: GiElectric,
-    title: 'No-Hands Productivity',
+    title: 'No Hands Productivity',
     desc: 'Cooking, walking, driving? Just speak. Schedule, set reminders, or reply to texts, all while you stay focused on life.',
   },
   {
@@ -37,13 +37,12 @@ const AiAssistantSlider = () => {
     <section className="w-full bg-(--bg-bg) py-20 flex flex-col items-center">
       <div className="max-w-6xl w-full flex flex-col items-center text-center">
   <SlideLeft> <h1 className="font-[Inter] font-bold text-[33px] leading-10 text-(--text-primary)">
-        AI Assistant
+        AI Voice Assistant
         </h1></SlideLeft>     
 <SlideRight><p className="mt-2 font-[Inter] font-normal text-[18.6px] leading-7 text-(--text-primary)">
-Whether it’s personal reflections, voice notes, or daily logs, MeMyselfI.ai<br/>
-keeps your Diary entries organized, searchable, and always accessible.<br/>
-Write, record, or revisit your moments — all synced and intelligently<br/>
-managed in one calm space.
+Whether it’s remembering your friend’s birthday, prepping your weekly<br/>
+grocery list, or syncing dinner reservations, MeMyselfI.ai acts like your<br/>
+invisible co pilot, anticipating your needs and organizing life before you ask.<br/>
         </p></SlideRight>        
       </div>
 <div className="mt-8 max-w-6xl w-full grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">

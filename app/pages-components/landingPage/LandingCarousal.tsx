@@ -9,13 +9,13 @@ import AibBudgetTrackingSlider from './landingpage-carousal/AiBudgetTrackingSlid
 import UnifiedInboxSlider from './landingpage-carousal/UnifiedInboxSlider';
 
 const sliders = [
-  VaultSlider,
-  AiAssistantSlider,
-  AiCallAgentSlider,
-  AiDiaryNotesSlider,
-  AiSmartSlider,
-  AibBudgetTrackingSlider,
   UnifiedInboxSlider,
+   AiSmartSlider,
+  AiDiaryNotesSlider,
+   AiAssistantSlider,
+  AiCallAgentSlider,
+  AibBudgetTrackingSlider,
+  VaultSlider
 ];
 const extendedSliders = [...sliders, sliders[0]];
 const LandingCarousel = () => {
@@ -24,7 +24,7 @@ const LandingCarousel = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prev) => prev + 1);
-    }, 5000);
+    }, 10000);
     return () => clearInterval(interval);
   }, []);
 

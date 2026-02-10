@@ -9,13 +9,13 @@ const cards = [
   {
     id: 1,
     icon: TiMessages,
-    title: 'Human-Like Call Handling',
-    desc: 'Your AI agent answers and manages calls just like a real assistant — greeting, responding, and ensuring no inquiry goes unattended.',
+    title: 'Human Like Call Handling',
+    desc: 'Your AI agent answers and manages calls just like a real assistant  greeting, responding, and ensuring no inquiry goes unattended.',
   },
   {
     id: 2,
     icon: MdOutlineUploadFile,
-    title: 'All-in-One Call Log',
+    title: 'All in One Call Log',
     desc: 'View daily, weekly, and monthly call histories in one clean dashboard. Check accepted, missed, or declined calls at a glance.',
   },
   {
@@ -28,7 +28,7 @@ const cards = [
     id: 4,
     icon:TfiCommentsSmiley,
     title: 'Smart Scheduling',
-    desc: 'Book, cancel, or reschedule meetings directly from calls. The agent syncs with your calendar automatically, eliminating back-and-forth.',
+    desc: 'Book, cancel, or reschedule meetings directly from calls. The agent syncs with your calendar automatically, eliminating back and forth.',
   },
 ];
 
@@ -42,7 +42,7 @@ const AiCallAgentSlider = () => {
 <SlideRight><p className="mt-2 font-[Inter] font-normal text-[18.6px] leading-7 text-(--text-primary)">
 Whether it’s personal calls, business inquiries, or scheduled meetings,<br/>
 MeMyselfI.ai keeps your conversations organized, trackable, and always<br/>
-accessible. Answer, review, or revisit your calls — all synced and<br/>
+accessible. Answer, review, or revisit your calls  all synced and<br/>
 intelligently managed in one smart dashboard.
         </p></SlideRight>        
       </div>

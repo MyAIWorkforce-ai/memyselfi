@@ -9,26 +9,26 @@ const cards = [
   {
     id: 1,
     icon: TiMessages,
-    title: 'All-in-One View',
-    desc: 'Access messages from Email, WhatsApp, SMS, and more, all inside a single unified screen. No more app-switching or missed updates.',
+    title: 'All in One View',
+    desc: 'Access messages from Email, WhatsApp, SMS, and more, all inside a single unified screen. No more app switching or missed updates.',
   },
   {
     id: 2,
     icon: MdOutlineUploadFile,
-    title: 'Real-Time Sync',
+    title: 'Real Time Sync',
     desc: "New messages update instantly across platforms. MeMyselfI.ai keeps your inbox fresh and always up to date, whether you're on mobile or desktop.",
   },
   {
     id: 3,
     icon: GiElectric,
-    title: 'AI-Powered Replies',
-    desc: 'Respond smarter, faster. Get context-aware, one-sensitive reply suggestions for every message, saving time and reducing mental load.',
+    title: 'AI Powered Replies',
+    desc: 'Respond smarter, faster. Get context aware, one sensitive reply suggestions for every message, saving time and reducing mental load.',
   },
   {
     id: 4,
     icon:TfiCommentsSmiley,
     title: 'Voice Interaction',
-    desc: "Too busy to type? Just ask. Use voice to read, reply to, or summarize your inbox, hands-free, while you're on the move.",
+    desc: "Too busy to type? Just ask. Use voice to read, reply to, or summarize your inbox, hands free, while you're on the move.",
   },
 ];
 
