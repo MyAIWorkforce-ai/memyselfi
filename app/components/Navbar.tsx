@@ -119,7 +119,7 @@ const isMobileActive = (path: string) => pathname === path;
                 <Link href="/UnifiedInbox"
                   className={`block px-4 py-2 text-base transition-colors duration-200
                     ${isActive('/UnifiedInbox') ? 'text-[#FFED29]' : hoverColor}`} onClick={() => setIsFeaturesOpen(!isFeaturesOpen)}
->Unified Inbox </Link>
+>AI Unified Inbox </Link>
 
                 <Link href="/AiSmartCalendar"
                   className={`block px-4 py-2 text-base transition-colors duration-200
@@ -256,7 +256,7 @@ const isMobileActive = (path: string) => pathname === path;
           </button>
  {isFeaturesOpen && (
   <div className="flex flex-col pl-4 mt-1 gap-1">
-    <Link href="/UnifiedInbox" onClick={() => setMobileMenuOpen(false)} className={`${isMobileActive('/UnifiedInbox') ? 'text-yellow-400' : hoverColor}`}>Unified Inbox</Link>
+    <Link href="/UnifiedInbox" onClick={() => setMobileMenuOpen(false)} className={`${isMobileActive('/UnifiedInbox') ? 'text-yellow-400' : hoverColor}`}>AI Unified Inbox</Link>
     <Link href="/AiSmartCalendar" onClick={() => setMobileMenuOpen(false)} className={`${isMobileActive('/AiSmartCalendar') ? 'text-yellow-400' : hoverColor}`}>AI Smart Calendar</Link>
     <Link href="/AiDiaryVoicenotes" onClick={() => setMobileMenuOpen(false)} className={`${isMobileActive('/AiDiaryVoicenotes') ? 'text-yellow-400' : hoverColor}`}>AI Diary & Voice Notes</Link>
     <Link href="/AiVoiceAssistant" onClick={() => setMobileMenuOpen(false)} className={`${isMobileActive('/AiVoiceAssistant') ? 'text-yellow-400' : hoverColor}`}>AI Voice Assistant</Link>

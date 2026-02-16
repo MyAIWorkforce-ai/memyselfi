@@ -2,7 +2,7 @@ import { pageMetadata } from "@/app/lib/metadata";
 import Vault from "./VaultClient";
 import { Metadata } from "next";
 
-export async function generateMetadata() {
+export async  function generateMetadata() {
   return {
 
         title:"Secure Digital Vault | Store Personal Documents & Records",
@@ -13,7 +13,7 @@ export async function generateMetadata() {
     ],
   }}
 
-export default function Page() {
-  return 
-  <Vault/>;
+export default  function Page() {
+  return (
+  <Vault/>)
 }
