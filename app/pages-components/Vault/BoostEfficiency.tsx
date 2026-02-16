@@ -26,7 +26,7 @@ export default function BoostEfficiency() {
               src="/Vault/vault_mobile.png"
               alt="Vault Mobile App"
               width={240}
-              className="md:w-[280px] md:h-[500px] rounded-2xl -mt-6 md:-mt-8 drop-shadow-2xl" />
+              className="md:w-[280px] md:h-[400px] rounded-2xl -mt-6 md:-mt-8 drop-shadow-2xl" />
           </div>
           {/* RIGHT – CONTENT */}
           <div className="relative w-full md:w-1/2 max-w-full md:max-w-[480px] 

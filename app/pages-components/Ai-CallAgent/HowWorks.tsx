@@ -3,7 +3,7 @@ import Image from "next/image";
 import { SlideLeft, SlideRight, SlideUp } from "@/app/components/Animations";
 const items = [
   { title: "Choose Your AI Voice & Tone", desc: "Professional, casual, or friendly – customize how your AI agent represents you.", icon: "1 " },
-  { title: "Front End Promt Training", desc: "Give AI Agent context and key information about your business to answer queries and questions on calls.", icon: "2" },
+  { title: "Front End Prompt Training", desc: "Give AI Agent context and key information about your business to answer queries and questions on calls.", icon: "2" },
   { title: "Train Your Preferences", desc: "Set rules for handling spam, booking appointments, acting as your AI receptionist, and managing important clients or specific scenarios.", icon: "3" },
   { title: "Get Instant Summaries", desc: "AI answers calls, records details, and sends you summaries instantly.", icon: "4" },
 ];

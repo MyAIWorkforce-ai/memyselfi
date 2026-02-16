@@ -28,7 +28,7 @@ export default function HeroSection() {
 <Hovering>
          <div className="w-full sm:w-[300px] md:w-[400px] lg:w-[700px] mt-2 sm:mt-6 md:mt-8  ">
           <Image
-            src="/Vault/heroImage.png"
+            src="/Vault/heroimage1.jpeg"
             alt="Hero Illustration"
             width={800}
             height={600}
